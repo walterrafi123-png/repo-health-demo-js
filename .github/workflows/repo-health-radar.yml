@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: xxrraa/repo-health-radar@v1
+      - uses: walterrafi123-png/repo-health-radar@main
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
