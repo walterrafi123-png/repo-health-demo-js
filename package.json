@@ -1,0 +1,22 @@
+{
+  "name": "repo-health-demo-js",
+  "version": "1.0.0",
+  "description": "Small JavaScript demo project for Repo Health Radar workflow testing.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "lint": "node --check src/index.js test/index.test.js",
+    "audit": "npm audit --audit-level=high"
+  },
+  "keywords": [
+    "demo",
+    "repository-health",
+    "github-actions"
+  ],
+  "author": "walterrafi123-png",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
